@@ -1,0 +1,25 @@
+{
+  "name": "gentrop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrobarreto/gentrop.git"
+  },
+  "keywords": [
+    "js",
+    "node",
+    "express",
+    "api"
+  ],
+  "author": "Pedro Barreto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrobarreto/gentrop/issues"
+  },
+  "homepage": "https://github.com/pedrobarreto/gentrop#readme"
+}
