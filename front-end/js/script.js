@@ -7,13 +7,21 @@ function createCustomElement(element, className, innerText) {
   return item;
 }
 
+function phoneMask (telefone) {
+  return telefone.replace(/\D/g, '')
+    .replace(/^(\d)/, '($1')
+    .replace(/^(\(\d{2})(\d)/, '$1) $2')
+    .replace(/(\d{4})(\d{1,5})/, '$1-$2')
+    .replace(/(-\d{5})\d+?$/, '$1');
+}
+
 function createClientCard({ nome, sobrenome, email_address, telefone, uf }) {
 
   const section = document.createElement('section');
   section.className = 'client-card';
   section.appendChild(createCustomElement('span', 'client-name', `${nome} ${sobrenome}`));
   section.appendChild(createCustomElement('span', 'client-email', email_address));
-  section.appendChild(createCustomElement('span', 'client-phone', telefone));
+  section.appendChild(createCustomElement('span', 'client-phone', phoneMask(telefone)));
   section.appendChild(createCustomElement('span', 'client-state', `estado: ${uf}`));
 
   return section;
