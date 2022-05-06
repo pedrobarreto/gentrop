@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.client-grid {
+  display: flex;
+  flex-basis: 90%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.client-card {
+  border: 2px solid rgb(246, 117, 11);
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  height: auto;
+  margin: 5px;
+  width: 250px;
+  padding: 20px;
+}
