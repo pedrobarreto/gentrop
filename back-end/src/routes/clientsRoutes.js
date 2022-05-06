@@ -1,6 +1,5 @@
 const { getClients } = require('../controllers/clientsController');
 
-
 const clientsRouter = [
   {
     method: 'get',
