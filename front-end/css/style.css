@@ -1,4 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd11c;
+  border-bottom: 2px solid #000;
+  height: 100px;
+}
+
 .container {
+  margin-top: 20px;
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -12,7 +27,8 @@
 }
 
 .client-card {
-  border: 2px solid rgb(246, 117, 11);
+  font-family: 'Roboto Flex', sans-serif;
+  border: 2px solid #000;
   border-radius: 5px;
   box-sizing: border-box;
   display: flex;
@@ -22,4 +38,5 @@
   margin: 5px;
   width: 250px;
   padding: 20px;
+  background-color: #ffd11c;
 }
