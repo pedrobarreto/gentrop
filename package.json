@@ -21,5 +21,7 @@
   "bugs": {
     "url": "https://github.com/pedrobarreto/gentrop/issues"
   },
-  "homepage": "https://github.com/pedrobarreto/gentrop#readme"
+  "homepage": "https://github.com/pedrobarreto/gentrop#readme",
+  "dependencies": {
+  }
 }
